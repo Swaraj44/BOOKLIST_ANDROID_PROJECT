@@ -4,7 +4,8 @@ package com.shakibcsekuet.mainbooklistproject;
 
 public class Book_List{
     
-    public  String book_name,book_id;
+      public  String book_name;
+    int book_id;
     
 
     public String getBook_name() {
@@ -15,11 +16,12 @@ public class Book_List{
         this.book_name = book_name;
     }
 
-    public String getBook_id() {
+    
+    public int getBook_id() {
         return book_id;
     }
 
-    public void setBook_id(String book_id) {
+    public void setBook_id(int book_id) {
         this.book_id = book_id;
     }
 }
