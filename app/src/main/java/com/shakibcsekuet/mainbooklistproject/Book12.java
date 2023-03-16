@@ -4,7 +4,8 @@ package com.shakibcsekuet.mainbooklistproject;
 
 public class Book_List{
     
-    public  String book22_name,book22_id;
+    public  String book22_name;
+    public int book22_id;
     
 
     public String getBook22_name() {
@@ -15,13 +16,11 @@ public class Book_List{
         this.book22_name = book22_name;
     }
 
-    public String getBook22_id() {
+    public int getBook22_id() {
         return book22_id;
     }
 
-    public void setBook22_id(String book22_id) {
+    public void setBook22_id(int book22_id) {
         this.book22_id = book22_id;
     }
 }
-
-//will it conflict anyhow !
